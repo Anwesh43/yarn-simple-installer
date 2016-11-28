@@ -1,13 +1,28 @@
 {
   "name": "yarn-simple-installer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple nodejs library to install dependencies using yarn",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository":{
+      "type":"git",
+      "url":"https://github.com/Anwesh43/yarn-simple-installer"
+  },
+  "author":"Anwesh Mishra",
+  "main": "index.js",
+  "keywords":[
+    "yarn",
+    "package management",
+    "library",
+    "runtime installation",
+    "dependencies",
+    "dependencies management",
+    "promise"
+  ],
   "dependencies": {
     "q": "^1.4.1"
   }
